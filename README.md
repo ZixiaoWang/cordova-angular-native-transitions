@@ -7,7 +7,7 @@ Also, The module was recommenced to be used with [angular-ui-router][]
 #### Before using this  
 This module has dependence on [**Telerik-Verified-Plugins/NativePageTransitions**][].  
 To install this plugin, please use command  
-<code>cordova plugin add cordova plugin add com.telerik.plugins.nativepagetransitions</code>  
+<code>cordova plugin add com.telerik.plugins.nativepagetransitions</code>  
 or, please refer to the description in [here][].
 
 #### Include the javascript
