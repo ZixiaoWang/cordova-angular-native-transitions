@@ -25,7 +25,10 @@ or, please refer to the description in [here][].
   <script type="text/javascript" src="PATH-IN-YOUR-PROJECT/angular-ui-router.min.js"></script>
   <script type="text/javascript" src="assets/angular-native-transitions.min.js"></script>
   <script>
-    angular.module('app', ['ui.router', 'ngNativeTransitions']
+    angular.module('app', ['ui.router', 'ngNativeTransitions'])
+    .controller('appCtrl', ['$scope', function($scope){
+      // YOUR CODE HERE
+    }])
   </script>
 </html>
 ```
