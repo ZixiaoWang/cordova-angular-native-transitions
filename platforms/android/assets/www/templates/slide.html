@@ -1,0 +1,33 @@
+<div class="row">
+    <p>
+        <small>Slide effect options</small>
+    </p>
+    <ul>
+        <li>direction: up | down | left | right</li>
+        <li>duration: default 400(milliseconds)</li>
+        <li>slowdownfactor: overlap view.</li>
+        <li>iosdelay: (milliseconds) wait ios view to update bofore animation start.</li>
+        <li>androiddelay: (milliseconds) wait Android view to update before animation start.</li>
+        <li>winphonedelay: forget about this...</li>
+        <li>fixedPixelsTop: default 0. For fixed header</li>
+        <li>fixedPixelsBottom: default 0. For fixed footer.</li>
+    </ul>
+    <button class="btn half"
+        native-transition
+        href="#home"
+        direction="left"
+        duration="300"
+        effect="slide"  
+        fixtop="82"  
+        success="resetTitle()"
+    >Back Left</button>
+    <button class="btn half"
+        native-transition
+        href="#home"
+        direction="right"
+        duration="300"
+        effect="slide"  
+        fixtop="82"  
+        success="resetTitle()"
+    >Back Right</button>
+</div>

@@ -1,0 +1,28 @@
+<div class="row">
+    <p>
+        <small>Flip effect options</small>
+    </p>
+    <ul>
+        <li>direction: up | down | left | right</li>
+        <li>duration: default 400(milliseconds)</li>
+        <li>iosdelay: (milliseconds) to wait the iOS webview to update before animation launched.</li>
+        <li>androiddelay: (milliseconds) to wait the Android webview to update before animation launched</li>
+        <li>winphonedelay: ...forget this...</li>
+    </ul>
+    <button class="btn half"
+        native-transition
+        effect="flip"
+        direction="left"
+        duration="300"
+        href="#home"
+        success="resetTitle()"
+        >Back Left</button>
+    <button class="btn half"
+        native-transition
+        effect="flip"
+        direction="right"
+        duration="300"
+        href="#home"
+        success="resetTitle()"
+        >Back Right</button>
+</div>
